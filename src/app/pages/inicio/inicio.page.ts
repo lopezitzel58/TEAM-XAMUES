@@ -22,6 +22,11 @@ export class InicioPage implements OnInit {
       icon:"nutrition-outline",
       name:"ALERT SHEET PAGE",
       redirectTo:"/alert"
+    },
+    {
+      icon:"chevron-forward-outline",
+      name:"BREADCRUMS PAGE",
+      redirectTo:"/breadcrum"
     }
   ];
   constructor() { }
