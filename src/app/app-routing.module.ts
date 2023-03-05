@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'breadcrum',
     loadChildren: () => import('./pages/breadcrum/breadcrum.module').then( m => m.BreadcrumPageModule)
   },
+  {
+    path: 'toolbar',
+    loadChildren: () => import('./pages/toolbar/toolbar.module').then( m => m.ToolbarPageModule)
+  },
 
 ];
 

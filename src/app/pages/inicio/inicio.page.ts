@@ -27,6 +27,11 @@ export class InicioPage implements OnInit {
       icon:"chevron-forward-outline",
       name:"BREADCRUMS PAGE",
       redirectTo:"/breadcrum"
+    },
+    {
+      icon:"hammer-outline",
+      name:"TOOLBAR PAGE",
+      redirectTo:"/toolbar"
     }
   ];
   constructor() { }
