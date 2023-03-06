@@ -32,6 +32,11 @@ export class InicioPage implements OnInit {
       icon:"hammer-outline",
       name:"TOOLBAR PAGE",
       redirectTo:"/toolbar"
+    },
+    {
+      icon:"card-outline",
+      name:"CARD PAGE",
+      redirectTo:"/card"
     }
   ];
   constructor() { }

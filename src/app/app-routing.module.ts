@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'toolbar',
     loadChildren: () => import('./pages/toolbar/toolbar.module').then( m => m.ToolbarPageModule)
   },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
 
 ];
 

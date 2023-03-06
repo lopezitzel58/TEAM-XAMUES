@@ -1,0 +1,14 @@
+<app-header titulo="Page CARD"></app-header>
+
+<ion-content>
+  <ion-card *ngFor="let tarjeta of tarjetas" color={{tarjeta.color}}>
+    <ion-card-header>
+      <ion-card-title>{{tarjeta.titulo}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{tarjeta.subtitulo}}
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>
