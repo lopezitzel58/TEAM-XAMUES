@@ -32,6 +32,14 @@ const routes: Routes = [
     loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
   },
   {
+    path: 'breadcrum',
+    loadChildren: () => import('./pages/breadcrum/breadcrum.module').then( m => m.BreadcrumPageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+  {
     path: 'checkbox',
     loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
   },
@@ -42,6 +50,10 @@ const routes: Routes = [
   {
     path: 'content',
     loadChildren: () => import('./pages/content/content.module').then( m => m.ContentPageModule)
+  },
+  {
+    path: 'toolbar',
+    loadChildren: () => import('./pages/toolbar/toolbar.module').then( m => m.ToolbarPageModule)
   },
 ];
 

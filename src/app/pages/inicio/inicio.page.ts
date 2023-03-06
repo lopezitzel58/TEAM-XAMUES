@@ -39,6 +39,16 @@ export class InicioPage implements OnInit {
       redirectTo:"/button"
     },
     {
+      icon:"chevron-forward-outline",
+      name:"BREADCRUM SHEET PAGE",
+      redirectTo:"/breadcrum"
+    },
+    {
+      icon:"card-outline",
+      name:"CARD SHEET PAGE",
+      redirectTo:"/card"
+    },
+    {
       icon:"checkmark-done-outline",
       name:"CHECKBOX SHEET PAGE",
       redirectTo:"/checkbox"
@@ -52,6 +62,10 @@ export class InicioPage implements OnInit {
       icon:"bonfire-outline",
       name:"CONTENT SHEET PAGE",
       redirectTo:"/contens"
+    }, {
+      icon:"hammer-outline",
+      name:"TOOLBAR SHEET PAGE",
+      redirectTo:"/toolbar"
     }
 
   ];
