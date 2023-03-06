@@ -24,20 +24,36 @@ export class InicioPage implements OnInit {
       redirectTo:"/alert"
     },
     {
-      icon:"chevron-forward-outline",
-      name:"BREADCRUMS PAGE",
-      redirectTo:"/breadcrum"
+      icon:"caret-forward-outline",
+      name:"ACCORDION SHEET PAGE",
+      redirectTo:"/accordion"
     },
     {
-      icon:"hammer-outline",
-      name:"TOOLBAR PAGE",
-      redirectTo:"/toolbar"
+      icon:"chatbubble-ellipses-outline",
+      name:"BADGE SHEET PAGE",
+      redirectTo:"/badge"
     },
     {
-      icon:"card-outline",
-      name:"CARD PAGE",
-      redirectTo:"/card"
+      icon:"cloud-upload-outline",
+      name:"BUTTON SHEET PAGE",
+      redirectTo:"/button"
+    },
+    {
+      icon:"checkmark-done-outline",
+      name:"CHECKBOX SHEET PAGE",
+      redirectTo:"/checkbox"
+    },
+    {
+      icon:"bug-outline",
+      name:"ICONS SHEET PAGE",
+      redirectTo:"/icons"
+    },
+    {
+      icon:"bonfire-outline",
+      name:"CONTENT SHEET PAGE",
+      redirectTo:"/contens"
     }
+
   ];
   constructor() { }
 
