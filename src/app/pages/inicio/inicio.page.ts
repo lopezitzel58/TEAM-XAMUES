@@ -67,22 +67,18 @@ export class InicioPage implements OnInit {
       icon:"hammer-outline",
       name:"TOOLBAR SHEET PAGE",
       redirectTo:"/toolbar"
-<<<<<<< Updated upstream
     }
-=======
-    },
+    ,
     {
       icon:"radio-button-off-outline",
       name:"RADIO PAGE",
       redirectTo:"/radio"
     },
-
     {
       icon:"grid-outline",
       name:"MENU PAGE ",
       redirectTo:"/menu"
     },
-
     {
       icon:"images-outline",
       name:"MEDIA PAGE ",
@@ -94,26 +90,21 @@ export class InicioPage implements OnInit {
       name:"MODAL PAGE ",
       redirectTo:"/modal"
     },
-
-    
     {
       icon:"help-outline",
       name:"POPOVER PAGE ",
       redirectTo:"/popover"
     },
-
     {
       icon:"battery-half-outline",
       name:"PROGRESS PAGE",
       redirectTo:"/progress"
     },
-
     {
       icon:"notifications-circle-outline",
       name:"SELECT PAGE ",
       redirectTo:"/select"
-    },
->>>>>>> Stashed changes
+    }
 
   ];
   constructor() { }

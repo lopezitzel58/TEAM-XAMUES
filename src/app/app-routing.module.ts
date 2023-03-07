@@ -55,9 +55,6 @@ const routes: Routes = [
     path: 'toolbar',
     loadChildren: () => import('./pages/toolbar/toolbar.module').then( m => m.ToolbarPageModule)
   },
-<<<<<<< Updated upstream
-];
-=======
   {
     path: 'radio',
     loadChildren: () => import('./pages/radio/radio.module').then( m => m.RadioPageModule)
@@ -85,8 +82,7 @@ const routes: Routes = [
   {
     path: 'select',
     loadChildren: () => import('./pages/select/select.module').then( m => m.SelectPageModule)
-  },
->>>>>>> Stashed changes
+  }];
 
 @NgModule({
   imports: [
