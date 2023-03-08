@@ -43,6 +43,7 @@ export class InicioPage implements OnInit {
       name:"BREADCRUM SHEET PAGE",
       redirectTo:"/breadcrum"
     },
+   
     {
       icon:"card-outline",
       name:"CARD SHEET PAGE",
@@ -108,6 +109,43 @@ export class InicioPage implements OnInit {
       icon:"hammer-outline",
       name:"GRID",
       redirectTo:"/grid"
+    }
+    ,
+    {
+      icon:"radio-button-off-outline",
+      name:"RADIO PAGE",
+      redirectTo:"/radio"
+    },
+    {
+      icon:"grid-outline",
+      name:"MENU PAGE ",
+      redirectTo:"/menu"
+    },
+    {
+      icon:"images-outline",
+      name:"MEDIA PAGE ",
+      redirectTo:"/media"
+    },
+
+    {
+      icon:"flash-outline",
+      name:"MODAL PAGE ",
+      redirectTo:"/modal"
+    },
+    {
+      icon:"help-outline",
+      name:"POPOVER PAGE ",
+      redirectTo:"/popover"
+    },
+    {
+      icon:"battery-half-outline",
+      name:"PROGRESS PAGE",
+      redirectTo:"/progress"
+    },
+    {
+      icon:"notifications-circle-outline",
+      name:"SELECT PAGE ",
+      redirectTo:"/select"
     }
 
   ];
