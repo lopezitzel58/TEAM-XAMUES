@@ -62,10 +62,52 @@ export class InicioPage implements OnInit {
       icon:"bonfire-outline",
       name:"CONTENT SHEET PAGE",
       redirectTo:"/contens"
-    }, {
+    },
+     {
       icon:"hammer-outline",
       name:"TOOLBAR SHEET PAGE",
       redirectTo:"/toolbar"
+    },
+    {
+      icon:"hammer-outline",
+      name:"FLOATING",
+      redirectTo:"/floating"
+    }
+    ,
+    {
+      icon:"hammer-outline",
+      name:"CHIP",
+      redirectTo:"/chip"
+    }
+    ,
+    {
+      icon:"hammer-outline",
+      name:"INFINITE",
+      redirectTo:"/infinite"
+    }
+    ,
+    {
+      icon:"hammer-outline",
+      name:"INPUT",
+      redirectTo:"/input"
+    }
+    ,
+    {
+      icon:"hammer-outline",
+      name:"LIST",
+      redirectTo:"/list"
+    }
+    ,
+    {
+      icon:"hammer-outline",
+      name:"ITEM",
+      redirectTo:"/item"
+    }
+    ,
+    {
+      icon:"hammer-outline",
+      name:"GRID",
+      redirectTo:"/grid"
     }
 
   ];

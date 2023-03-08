@@ -55,6 +55,35 @@ const routes: Routes = [
     path: 'toolbar',
     loadChildren: () => import('./pages/toolbar/toolbar.module').then( m => m.ToolbarPageModule)
   },
+  {
+    path: 'floating',
+    loadChildren: () => import('./pages/floating/floating.module').then( m => m.FloatingPageModule)
+  },
+  {
+    path: 'chip',
+    loadChildren: () => import('./pages/chip/chip.module').then( m => m.ChipPageModule)
+  },
+  {
+    path: 'infinite',
+    loadChildren: () => import('./pages/infinite/infinite.module').then( m => m.InfinitePageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'list',
+    loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
+  },  {
+    path: 'item',
+    loadChildren: () => import('./pages/item/item.module').then( m => m.ItemPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+
+
 ];
 
 @NgModule({
