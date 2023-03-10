@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TabsPage } from '../tabs/tabs.page';
 
 interface Componente{
   icon:string;
@@ -146,7 +147,38 @@ export class InicioPage implements OnInit {
       icon:"notifications-circle-outline",
       name:"SELECT PAGE ",
       redirectTo:"/select"
+    },
+    {
+      icon:"calendar-outline",
+      name:"DATETIME & PICKER PAGE ",
+      redirectTo:"/datetime"
+    },
+    {
+      icon:"tablet-portrait-outline",
+      name:" TABS PAGE ",
+      redirectTo:"/tabs"
+    },
+    {
+      icon:"tablet-landscape-outline",
+      name:" TOAST PAGE ",
+      redirectTo:"/toast"
+    },
+    {
+      icon:"text-outline",
+      name:" TYPOGRAPHY PAGE ",
+      redirectTo:"/typography"
+    },
+    {
+      icon:"toggle-outline",
+      name:" TOGGLE PAGE ",
+      redirectTo:"/toggle"
+    },
+    {
+      icon:"menu-outline",
+      name:" REORDER PAGE ",
+      redirectTo:"/reoder"
     }
+
 
   ];
   constructor() { }

@@ -8,6 +8,7 @@ import { BreadcrumPageRoutingModule } from './breadcrum-routing.module';
 
 import { BreadcrumPage } from './breadcrum.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -15,8 +16,10 @@ import { ComponentsModule } from 'src/app/components/components.module';
     FormsModule,
     IonicModule,
     BreadcrumPageRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    RouterModule.forChild([{path:'', component: BreadcrumPage}])
   ],
-  declarations: [BreadcrumPage]
+  declarations: [BreadcrumPage],
+  exports:[BreadcrumPage]
 })
 export class BreadcrumPageModule {}

@@ -1,0 +1,11 @@
+<app-header titulo="DATETIME & PICKER"></app-header>
+
+<ion-content class="ion-padding">
+  <ion-datetime-button datetime="datetime"></ion-datetime-button>
+
+  <ion-modal [keepContentsMounted]="true">
+    <ng-template>
+      <ion-datetime id="datetime"></ion-datetime>
+    </ng-template>
+  </ion-modal>
+</ion-content>
