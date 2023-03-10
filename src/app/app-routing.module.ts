@@ -155,14 +155,7 @@ const routes: Routes = [
   {
     path: 'refresher',
     loadChildren: () => import('./page/refresher/refresher.module').then( m => m.RefresherPageModule)
-  },
-
-
-
-
-
-
-
+  }
 ];
 
 @NgModule({
