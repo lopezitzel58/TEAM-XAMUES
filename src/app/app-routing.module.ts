@@ -131,6 +131,37 @@ const routes: Routes = [
     path: 'reoder',
     loadChildren: () => import('./pages/reoder/reoder.module').then( m => m.ReoderPageModule)
   }
+  ,
+  {
+    path: 'range',
+    loadChildren: () => import('./page/range/range.module').then( m => m.RangePageModule)
+  },
+  {
+    path: 'reoder',
+    loadChildren: () => import('./page/reoder/reoder.module').then( m => m.ReoderPageModule)
+  },
+  {
+    path: 'routing',
+    loadChildren: () => import('./page/routing/routing.module').then( m => m.RoutingPageModule)
+  },
+  {
+    path: 'search',
+    loadChildren: () => import('./page/search/search.module').then( m => m.SearchPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./page/segment/segment.module').then( m => m.SegmentPageModule)
+  },
+  {
+    path: 'refresher',
+    loadChildren: () => import('./page/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
+
+
+
+
+
+
 
 ];
 

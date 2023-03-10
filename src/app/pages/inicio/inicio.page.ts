@@ -177,9 +177,42 @@ export class InicioPage implements OnInit {
       icon:"menu-outline",
       name:" REORDER PAGE ",
       redirectTo:"/reoder"
-    }
-
-
+    },
+    {
+      icon:"menu-outline",
+      name:"TOOLBAR PAGE",
+      redirectTo:"/toolbar"
+    },
+    {
+      icon:"contrast-outline",
+      name:"RANGE PAGE",
+      redirectTo:"/range"
+    },
+    {
+      icon:"contrast-outline",
+      name:"REORDER PAGE",
+      redirectTo:"/reoder"
+    },
+    {
+      icon:"navigate-outline",
+      name:"ROTING PAGE",
+      redirectTo:"/routing"
+    },
+    {
+      icon:"search-circle-outline",
+      name:"SEARCH PAGE",
+      redirectTo:"/search"
+    },
+    {
+      icon:"reader-outline",
+      name:"SEGMENT PAGE",
+      redirectTo:"/segment"
+    },
+    {
+      icon:"arrow-down-circle-outline",
+      name:"REFRESHER PAGE",
+      redirectTo:"/refresher"
+    },
   ];
   constructor() { }
 
