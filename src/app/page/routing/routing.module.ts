@@ -8,9 +8,11 @@ import { RoutingPageRoutingModule } from './routing-routing.module';
 
 import { RoutingPage } from './routing.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
+    RouterModule,
     CommonModule,
     FormsModule,
     IonicModule,
